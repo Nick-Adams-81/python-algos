@@ -47,6 +47,28 @@ print(tuple_1)
 cs_courses = {'History', 'Math', 'Science', 'Physical Ed'}
 print(cs_courses)
 
+# DICTIONARIES  EXAMPLES #
+
+student = {'name': 'John', 'age': 25, 'courses': ['Math', 'Science']}
+print(student)
+
+# get dictionary method
+print(student.get('name'))
+
+# adding data to our dictionary
+student['phone'] = '555-5555'
+student['name'] = 'jane'
+print(student)
+
+# deleting data from our dictionary
+del student['age']
+print(student)
+
+# looping through our dictionary
+for key, value in student.items():
+    print(key, value)
+
+
 
 
 
