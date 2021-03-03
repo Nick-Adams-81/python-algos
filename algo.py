@@ -1,7 +1,8 @@
                  #####      PYTHON ALGORITHIMS!     #####
 
-# LIST EXAMPLES AND LIST FUNCTIONS #                         
+# LIST EXAMPLES AND LIST FUNCTIONS (Mutable data)#                         
 
+# Basic list
 courses = ['history', 'Math', 'Science', 'Physical Ed']
 print('first list',courses)
 
@@ -35,12 +36,19 @@ for item in data:
 for index, item in enumerate(data):
     print(index, item)
 
-# toString method
-course_str = ', '.join(courses)
+
+# Tuple example (Immutable data) #
+
+# basic tuple
+tuple_1 = ('History', ' Math', 'Science', 'Physical Ed')
+print(tuple_1)
+
+# Set example 
+cs_courses = {'History', 'Math', 'Science', 'Physical Ed'}
+print(cs_courses)
 
 
 
-# TUPLE EXAMPLES AND FUNCTIONS #
 
 
 
