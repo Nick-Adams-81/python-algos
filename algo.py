@@ -31,7 +31,7 @@ print('sorting our list', courses)
 data = ['hello', 'cruel', 'world']
 # basic for loop
 for item in data:
-    print(item)
+    print('For loop example', item)
 # getting the index of a list item in a for loop
 for index, item in enumerate(data):
     print(index, item)
@@ -67,6 +67,28 @@ print(student)
 # looping through our dictionary
 for key, value in student.items():
     print(key, value)
+
+
+# For and while loop examples #
+
+# for loop
+a = [1, 2, 3]
+total = 0
+for data in a:
+    total = total + data
+    print(total)
+
+# while loop
+cond = 1
+while cond < 10:
+    print(cond)
+    cond += 1
+
+
+
+
+
+
 
 
 
