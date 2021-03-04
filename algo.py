@@ -84,6 +84,50 @@ while cond < 10:
     print(cond)
     cond += 1
 
+# Conditionals #
+
+lang = 'Python'
+# if statement
+if lang == 'Python':
+    print('Condition is true')
+# elif statement
+elif lang == 'Java':
+    print('language is Java')
+# else statement
+else:
+    print('no match')
+
+# boolean examples
+# and
+# or
+# not
+
+user = 'Admin'
+logged_in = True
+
+# and 
+if user == 'Admin' and logged_in:
+    print('Admin page')
+else:
+    print('Bad creds')
+
+# or
+if user == 'Admin' or logged_in:
+    print('admin page')
+else:
+    print('Bad creds')
+
+# not
+if not logged_in:
+    print('Please log in')
+else:
+    print('Welcome')
+
+
+
+
+
+
 
 
 
