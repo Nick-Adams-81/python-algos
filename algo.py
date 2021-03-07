@@ -127,10 +127,12 @@ else:
 
     first_name = "Nick"
     last_name = "Adams"
-
+     
+     # .format() method for using varibles 
     old_sentence = 'My name is {} {}'.format(first_name, last_name)
     print(old_sentence)
-
+    
+    # f string method for using variables 
     sentence = f'My name is {first_name} {last_name}'
     print(sentence)
 
