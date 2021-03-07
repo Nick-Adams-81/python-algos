@@ -123,6 +123,17 @@ if not logged_in:
 else:
     print('Welcome')
 
+    # f string example
+
+    first_name = "Nick"
+    last_name = "Adams"
+
+    old_sentence = 'My name is {} {}'.format(first_name, last_name)
+    print(old_sentence)
+
+    sentence = f'My name is {first_name} {last_name}'
+    print(sentence)
+
 
 
 
